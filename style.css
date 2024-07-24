@@ -58,7 +58,7 @@ ul li a{
     border-radius: 50%;
     height: 300px;
     width: 300px;
-    background: url(photo.jpg) no-repeat;
+    background: url(img/photo.jpg) no-repeat;
     background-position: center;
     margin-bottom: 20px;
 }
