@@ -7,6 +7,16 @@ body{
     display: flex;
     gap: 5%;
 }
+ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style-type: none;
+} 
+ul li a{
+    text-decoration: none;
+    color: #333333;
+}
 #b{
     width: 360px;
     display: flex;
@@ -15,6 +25,9 @@ body{
     gap: 40px;
     background-color: #f0f0f0;
     color: #333333;
+}
+#b section{
+    width: 100%;
 }
 #own__information, #education__references__container{
     width: 100%;
@@ -47,14 +60,32 @@ h1{
     font-size: 32px;
     letter-spacing: 0.8px;
 }
+h2{
+    font-size: 27px;
+    letter-spacing: 0.75px;
+}
 main{
     padding-top: 120px;
 }
 .headers__img{
     display: flex;
     align-items: center;
+    justify-content: center;
     gap: 10px;
 }
 .headers__img img{
-    height: 28px;
+    height: 30px;
+}
+#contacts ul{
+    padding: 20px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+#contacts ul li{
+    font-size: 20px;
+}
+#contacts ul li img{
+    height: 25px;
+    width: auto;
 }
