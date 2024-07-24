@@ -12,5 +12,6 @@ wrappers.forEach(wrapper => innerProgress(wrapper))
 function innerProgress(wrapper){
     let closestID = wrapper.closest('.progress__container').id
     let skillProgress = progress[closestID]
-    wrapper.innerHTML = `<div class="progress" style="height: 100%; width: ${skillProgress}%; background-color: #333333;"></div>`
+    wrapper.innerHTML = `<div class="progress" style="width: ${skillProgress}%;"></div>`
+    wrapper.createElement
 }

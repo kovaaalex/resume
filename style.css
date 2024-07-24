@@ -6,6 +6,10 @@ body{
     margin: 0 5%;
     display: flex;
     gap: 5%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    padding: 10px 0;
 }
 ul li{
     display: flex;
@@ -73,13 +77,20 @@ h4{
     letter-spacing: 0.5px;
 }
 main{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
     padding-top: 120px;
+    color: #333333;
 }
 .headers__img{
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 10px;
+}
+main .headers__img{
+    justify-content: start;
 }
 .headers__img img{
     height: 30px;
@@ -104,8 +115,45 @@ main{
 section h3, section h4{
     text-align: center;
 }
+#skills__progress{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.progress__container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
 .progress__wrapper{
     background-color: #cccccc;
-    width: 400px;
+    width: 300px;
     height: 20px;
+    border-radius: 20px;
+}
+.progress{
+    height: 100%;
+    background-color: #333333;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+span{
+    width: 60px;
+}
+main .headers__img{
+    justify-content: start;
+}
+main section{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#about p{
+    line-height: 140%;
+}
+main h3{
+    text-align:start;
+}
+ul li{
+    padding: 5px 0;
 }
