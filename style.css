@@ -104,3 +104,8 @@ main{
 section h3, section h4{
     text-align: center;
 }
+.progress__wrapper{
+    background-color: #cccccc;
+    width: 400px;
+    height: 20px;
+}
